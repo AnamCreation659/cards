@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Sidebar() {
   return (
     <div className="w-64 bg-[#040C15] h-screen p-6 flex flex-col gap-6">
-      <nav className="flex flex-col gap-4 text-white">
+      <nav className="flex flex-col gap-6 text-white">
         <Link
           href="/"
           className="hover:text-red-500 flex items-center gap-2 text-white"
