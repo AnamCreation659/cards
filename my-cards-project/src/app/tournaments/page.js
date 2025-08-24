@@ -1,0 +1,179 @@
+import TournamentCard from "../../components/TournamentCard";
+export default function Tournaments() {
+  const data = [
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },
+    {
+      game: "COD PK",
+      date: "12:00",
+      fee: "Publi",
+      prize: "$500",
+      img: "/image/Dashboard-dark.png",
+    },    
+  ];
+
+  return (
+    <div className="p-8 min-h-screen bg-gray-700">
+      <div className="flex items-center gap-4">
+        <h1 className="text-3xl font-bold text-white">Tournaments</h1>
+        <div className="flex items-center gap-2">
+          <span className="text-white">Show upcoming only</span>
+          <label className="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" className="sr-only peer" />
+            <div className="w-11 h-6 p-1 bg-[#17263A] opacity-[0.7] rounded-full peer after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-[#FE0100] after:h-5 after:w-5 after:rounded-full after:transition-all peer-checked:after:translate-x-5"></div>
+          </label>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <div className="relative inline-block w-40">
+            <select className="appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7] px-3 py-2 pr-8 rounded text-sm w-full">
+              <option>Select time</option>
+              <option>Fortnite</option>
+              <option>COD</option>
+            </select>
+            <span className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 38.807 19.403"
+                className="transition-transform duration-300"
+              >
+                <g transform="translate(38.807) rotate(90)">
+                  <path
+                    d="M9.82,20.972.475,11.631a1.61,1.61,0,0,1,0-2.285L9.82,0l1.714,1.714-8.77,8.772,8.772,8.772Z"
+                    transform="matrix(-1, 0, 0, -1, 15.5, 29.897)"
+                    fill="#989898"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+          <div className="relative inline-block w-40">
+            <select className="appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7] px-3 py-2 pr-8 rounded text-sm w-full">
+              <option>Select time</option>
+              <option>Fortnite</option>
+              <option>COD</option>
+            </select>
+            <span className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 38.807 19.403"
+                className="transition-transform duration-300"
+              >
+                <g transform="translate(38.807) rotate(90)">
+                  <path
+                    d="M9.82,20.972.475,11.631a1.61,1.61,0,0,1,0-2.285L9.82,0l1.714,1.714-8.77,8.772,8.772,8.772Z"
+                    transform="matrix(-1, 0, 0, -1, 15.5, 29.897)"
+                    fill="#989898"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+          <div className="relative inline-block w-36">
+            <select className="appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7] px-3 py-2 pr-8 rounded text-sm w-full">
+              <option>All Games</option>
+              <option>Fortnite</option>
+              <option>COD</option>
+            </select>
+            <span className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 38.807 19.403"
+                className="transition-transform duration-300"
+              >
+                <g transform="translate(38.807) rotate(90)">
+                  <path
+                    d="M9.82,20.972.475,11.631a1.61,1.61,0,0,1,0-2.285L9.82,0l1.714,1.714-8.77,8.772,8.772,8.772Z"
+                    transform="matrix(-1, 0, 0, -1, 15.5, 29.897)"
+                    fill="#989898"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+          <div className="relative inline-block w-32">
+            <select className="appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7] px-3 py-2 pr-8 rounded text-sm w-full">
+              <option>Sort by</option>
+              <option>Fortnite</option>
+              <option>COD</option>
+            </select>
+            <span className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 38.807 19.403"
+                className="transition-transform duration-300"
+              >
+                <g transform="translate(38.807) rotate(90)">
+                  <path
+                    d="M9.82,20.972.475,11.631a1.61,1.61,0,0,1,0-2.285L9.82,0l1.714,1.714-8.77,8.772,8.772,8.772Z"
+                    transform="matrix(-1, 0, 0, -1, 15.5, 29.897)"
+                    fill="#989898"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-10">
+            {data.map((item, i) => (
+          <TournamentCard key={i} {...item} />
+        ))}
+      </div>
+    </div>
+  );
+}
