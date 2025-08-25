@@ -49,17 +49,17 @@ export default function TournamentCard({ game, date, fee, prize, img }) {
                 </g>
               </svg>
 
-              <span>{date}</span>
+              <span className="font-actay">{date}</span>
             </div>
           </div>
-          <div className="absolute right-4 bottom-4 rounded-md px-2 py-1 border-1 border-white gap-1 bg-zinc-900/70  text-xs text-white">
+          <div className="absolute right-4 bottom-4 rounded-md px-2 py-1 border-1 border-white gap-1 bg-zinc-900/70  text-xs text-white font-actay">
             {fee}
           </div>
         </div>
         <div className="space-y-3 p-3 relative flex flex-col justify-between h-1/2">
        <div className=" flex flex-col justify-between">
           <div className="flex items-center justify-between px-4 gap-4 text-sm text-zinc-300/80">
-            <div className="flex items-center gap-1 text-[#90A7CB]">
+            <div className="flex items-center gap-1 text-[#90A7CB] font-actay">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -93,9 +93,9 @@ export default function TournamentCard({ game, date, fee, prize, img }) {
                   />
                 </g>
               </svg>
-              <span>{date}</span>
+              <span className="">{date}</span>
             </div>
-            <div className="flex items-center gap-1 text-[#90A7CB]">
+            <div className="flex items-center gap-1 text-[#90A7CB] font-actay">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="7.638"
@@ -116,7 +116,7 @@ export default function TournamentCard({ game, date, fee, prize, img }) {
               </svg>
               <span>{prize}</span>
             </div>
-            <div className="flex items-center gap-1 text-[#90A7CB]">
+            <div className="flex items-center gap-1 text-[#90A7CB] ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
@@ -152,16 +152,16 @@ export default function TournamentCard({ game, date, fee, prize, img }) {
                   />
                 </g>
               </svg>
-              <span>{game}</span>
+              <span className="font-actay">{game}</span>
             </div>
           </div>
-              <h3 className="mt-4 text-2xl font-bold text-white">
+              <h3 className="mt-4 text-2xl font-bold text-white font-grifter">
                 {game}
-                <span className="ml-2 font-normal text-base">
+                <span className="ml-2 text-base">
                   (Under 12 Only)
                 </span>
               </h3>
-              <p className="mt-4 text-sm text-zinc-300/90">
+              <p className="mt-4 text-base text-zinc-300/90 font-actay">
                 Lorem ipsum dolor sit amet consectetur. Aliquet cursus mi
                 fermentum neque varius morbi dictum in eu.
               </p>
@@ -169,29 +169,33 @@ export default function TournamentCard({ game, date, fee, prize, img }) {
             <div>
               <a
                 href="#"
-                className="flex items-end justify-end text-sm text-[#90A7CB] font-bold underline"
+                className="flex items-end justify-end text-sm text-[#90A7CB] underline font-grifter"
               >
                 More Info
               </a>
             </div>
         </div>
       </article>
-      <div className="absolute left-4 -bottom-3">
-        <div className="[filter:drop-shadow(15px_-15px_30px_rgba(255,0,0,0.8))] relative">
-          <div
-            className="absolute inset-0 -m-2 bg-black 
-         [clip-path:polygon(0_0,calc(100%-18px)_0,100%_18px,100%_100%,0_100%)] opacity-[0.5]"
-          > 
-          </div>
-          <div
-            className="relative bg-red-600 text-white font-semibold px-5 py-2
-                [clip-path:polygon(0_0,calc(100%-18px)_0,100%_18px,100%_100%,0_100%)]"
-          >
-            Join Tournament
-          </div>
-        </div>
-        <div className="absolute -left-1 -bottom-1 w-10 h-4 bg-red-600"></div>
-      </div>
+     <div className="absolute left-4 -bottom-3">
+  <div className="[filter:drop-shadow(15px_-15px_30px_rgba(255,0,0,0.8))] relative">
+    {/* Yeh black div hata do ya transparent karo */}
+    <div
+      className="absolute inset-0 -m-2 bg-black 
+      [clip-path:polygon(0_0,calc(100%-18px)_0,100%_18px,100%_100%,0_100%)] opacity-[0.5]"
+    />
+
+    {/* Main Button */}
+    <div
+      className="relative bg-red-600 text-white font-semibold px-5 py-2
+        [clip-path:polygon(0_0,calc(100%-18px)_0,100%_18px,100%_100%,0_100%)]"
+    >
+      Join Tournament
+    </div>
+  </div>
+
+  <div className="absolute -left-1 -bottom-1 w-10 h-4 bg-red-600"></div>
+</div>
+
     </div>
   );
 }

@@ -60,7 +60,7 @@ export default function Tournaments() {
   ];
 
   return (
-    <div className="p-9 min-h-screen bg-gray-700">
+    <div className="p-9 min-h-screen bg-gray-700 bg-card">
       <div className="flex items-center justify-start gap-4">
         <h1 className="text-3xl font-grifter text-white">Tournaments</h1>
         <div className="flex items-center gap-2">
