@@ -67,12 +67,12 @@ export default function Tournaments() {
           <span className="text-white text-lg font-actay">Show upcoming only</span>
           <label className="relative inline-flex items-center cursor-pointer">
             <input type="checkbox" className="sr-only peer" />
-            <div className="w-[60px] h-8 bg-[#17263A] opacity-[0.7] rounded-full peer after:content-[''] after:absolute after:top-[4px] after:left-[4px] after:bg-[#FE0100] after:h-6 after:w-6 after:rounded-full after:transition-all peer-checked:after:translate-x-7"></div>
+            <div className="w-[60px] h-8 bg-zinc-600 opacity-[0.7] rounded-full peer after:content-[''] after:absolute after:top-[4px] after:left-[4px] after:bg-[#FE0100] after:h-6 after:w-6 after:rounded-full after:transition-all peer-checked:after:translate-x-7"></div>
           </label>
         </div>
         <div className="flex flex-wrap gap-5">
           <div className="relative inline-block w-66">
-            <select className="p-5 appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7]  pr-8 rounded text-lg w-full">
+            <select className="p-5 appearance-none outline-none bg-zinc-600 text-[#989898] pr-8 rounded text-lg w-full">
               <option>Select time</option>
               <option>Fortnite</option>
               <option>COD</option>
@@ -96,7 +96,7 @@ export default function Tournaments() {
             </span>
           </div>
           <div className="relative inline-block w-66">
-            <select className="p-5 appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7]  pr-8 rounded text-lg w-full">
+            <select className="p-5 appearance-none outline-none bg-zinc-600 text-[#989898]  pr-8 rounded text-lg w-full">
               <option>Select time</option>
               <option>Fortnite</option>
               <option>COD</option>
@@ -120,7 +120,7 @@ export default function Tournaments() {
             </span>
           </div>
           <div className="relative inline-block w-58">
-            <select className="p-5 appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7]  pr-8 rounded text-lg w-full">
+            <select className="p-5 appearance-none outline-none bg-zinc-600 text-[#989898]  pr-8 rounded text-lg w-full">
               <option>All Games</option>
               <option>Fortnite</option>
               <option>COD</option>
@@ -144,7 +144,7 @@ export default function Tournaments() {
             </span>
           </div>
           <div className="relative inline-block w-56">
-            <select className="p-5 appearance-none outline-none bg-[#17263A] text-[#989898] opacity-[0.7]  pr-8 rounded text-lg w-full">
+            <select className="p-5 appearance-none outline-none bg-zinc-600 text-[#989898]  pr-8 rounded text-lg w-full">
               <option>Sort by</option>
               <option>Fortnite</option>
               <option>COD</option>

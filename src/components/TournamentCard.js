@@ -2,7 +2,7 @@ export default function TournamentCard({ game, date, fee, prize, img }) {
   return (
     <div className="relative">
       <article
-        className="h-[413px] relative bg-zinc-800/70 shadow-xl ring-1 ring-white/5
+        className="h-[413px] relative bg-zinc-600/90 shadow-xl ring-1 ring-white/5
         [clip-path:polygon(0_0,calc(100%-25px)_0,100%_25px,100%_100%,0_100%)] overflow-hidden"
       >
         <div className="relative h-48 p-2">
@@ -176,26 +176,22 @@ export default function TournamentCard({ game, date, fee, prize, img }) {
             </div>
         </div>
       </article>
-     <div className="absolute left-4 -bottom-3">
-  <div className="[filter:drop-shadow(15px_-15px_30px_rgba(255,0,0,0.8))] relative">
-    {/* Yeh black div hata do ya transparent karo */}
-    <div
-      className="absolute inset-0 -m-2 bg-black 
-      [clip-path:polygon(0_0,calc(100%-18px)_0,100%_18px,100%_100%,0_100%)] opacity-[0.5]"
-    />
-
-    {/* Main Button */}
-    <div
-      className="relative bg-red-600 text-white font-semibold px-5 py-2
-        [clip-path:polygon(0_0,calc(100%-18px)_0,100%_18px,100%_100%,0_100%)]"
-    >
-      Join Tournament
-    </div>
-  </div>
-
-  <div className="absolute -left-1 -bottom-1 w-10 h-4 bg-red-600"></div>
-</div>
-
+      <div className="absolute left-4 -bottom-3">
+        <div className="[filter:drop-shadow(15px_-15px_30px_rgba(255,0,0,0.8))] relative">
+          <div
+            className="absolute inset-0 -m-2 bg-black 
+         [clip-path:polygon(0_0,calc(100%-20px)_0,100%_20px,100%_100%,0_100%)] opacity-[0.5]"
+          > 
+          </div>
+          <div
+            className="relative bg-red-600 text-white font-semibold px-5 py-2
+                [clip-path:polygon(0_0,calc(100%-18px)_0,100%_18px,100%_100%,0_100%)]"
+          >
+            Join Tournament
+          </div>
+        </div>
+        <div className="absolute -left-1 -bottom-1 w-10 h-4 bg-red-600"></div>
+      </div>
     </div>
   );
 }
