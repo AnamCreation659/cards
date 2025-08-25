@@ -2,8 +2,8 @@ import React from 'react'
 
 const teams = () => {
   return (
-    <div>
-      hello
+    <div className='p-8 text-5xl font-grifter'>
+      Hello teams
     </div>
   )
 }

@@ -1,11 +1,11 @@
 @import "tailwindcss";
-@tailwind utilities;
+ @tailwind utilities;
 
 
 /* Grifter */
 @font-face {
   font-family: "Grifter";
-  src: url("/fonts/Grifter-Bold.otf") format("opentype");
+  src: url("/fonts/GRIFTERBold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -13,22 +13,22 @@
 
 /* Aktay */
 @font-face {
-  font-family: "Aktay";
-  src: url("/fonts/Aktay-Regular.otf") format("opentype");
+  font-family: "Actay";
+  src: url("/fonts/Actay-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 :root {
   --font-grifter: "Grifter", sans-serif;
-  --font-aktay: "Aktay", sans-serif;
+  --font-aktay: "Actay", sans-serif;
 }
 .font-grifter {
   font-family: var(--font-grifter);
 }
 
-.font-aktay {
-  font-family: var(--font-aktay);
+.font-actay {
+  font-family: var(--font-actay);
 }
 :root {
   --font-grifter: "Grifter", sans-serif;
